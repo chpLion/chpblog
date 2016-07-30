@@ -8,12 +8,12 @@ default: &default
 
 development:
   <<: *default
-  database: blog_development
+  database: rails2_development
 
 test:
   <<: *default
-  database: blog_test
+  database: rails2_test
 
 production:
   <<: *default
-  database: blog_production
+  database: rails2_production
